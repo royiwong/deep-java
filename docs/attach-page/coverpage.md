@@ -2,11 +2,11 @@
 
 
 
-> A magical documentation site generator.
+> Java 深度学习知识积累及收集整理.
 
-- Simple and lightweight (~21kB gzipped)
-- No statically built html files
-- Multiple themes
+- 
+- 
+- 
 
 [博客主页](https://royiwong.github.io/)
 [开始学习](#简要说明)  
