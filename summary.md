@@ -1,13 +1,9 @@
-- java基础
-  - [基础语法](docs/java-base/basic.md)
-  - [IO](docs/java-base/basic.md)
-  - [泛型](docs/java-base/basic.md)
-  - [反射](docs/java-base/basic.md)
-  - [异常](docs/java-base/exception.md)
-  - [版本比较](docs/java-base/exception.md)
-- java jvm
-- 多线程
-- java设计模式
+- java
+  - [java基础](docs/java/basic.md)
+  - [java jvm](docs/java/jvm.md)
+  - [java 多线程](docs/java/thread.md)
+- 设计模式 
+  - [设计模式](docs/designPatterns/designPatterns.md)
 - 数据结构与算法
-  - [时间复杂度空间复杂度](docs/java-algorithm/o\(n\).md)
+  - [时间复杂度空间复杂度](docs/algorithm/o\(n\).md)
 
