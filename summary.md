@@ -6,5 +6,8 @@
   - [设计模式](docs/designPatterns/designPatterns.md)
 - 数据结构与算法
   - [时间复杂度空间复杂度](docs/algorithm/o\(n\).md)
+  - [数据结构](docs/algorithm/dataStructure.md)
+  - [常见算法](docs/algorithm/o\(n\).md)
+  - [算法题目](docs/algorithm/o\(n\).md)
 - 云计算
   - [云计算概述](docs/cloud/cloud.md)
