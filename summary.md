@@ -5,7 +5,7 @@
 - 设计模式 
   - [设计模式](docs/designPatterns/designPatterns.md)
 - 数据结构与算法
-  - [时间复杂度空间复杂度](docs/dataStructure/o\(n\).md)
+  - [时间复杂度空间复杂度](docs/datastructure/o\(n\).md)
   - [数据结构](docs/dataStructure/dataStructure.md)
   - [常见算法](docs/dataStructure/commAlg.md)
   - [算法题目](docs/dataStructure/o\(n\).md)
