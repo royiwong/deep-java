@@ -1,3 +1,8 @@
+## 创建线程的三种方式
+1、继承Thread类，重写Run方法；  
+2、实现Runnable接口，重写Run方法；  
+3、实现Callable接口，重写call方法；  
+
 ##  JUC包简介
 ---
 J.U.C并发包，即java.util.concurrent包，是JDK的核心工具包，是JDK1.5之后，由 Doug Lea实现并引入。  
@@ -11,4 +16,5 @@ J.U.C并发包，即java.util.concurrent包，是JDK的核心工具包，是JDK1
 主要参考书籍：  
 《Java Concurrency in Practice》 Brian Goetz等  
 《JAVA多线程设计模式》 结城浩  
+
 ##  juc-locks 锁框架
