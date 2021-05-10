@@ -12,7 +12,6 @@
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
   <link rel="stylesheet" href="//unpkg.com/docsify-dark-mode@0.6.1/dist/style.css" />
-  <script src="//cdn.jsdelivr.net/npm/docsify-plugin-codefund/index.js"></script>
   <style>
     nav.app-nav li ul {
       min-width: 100px;
@@ -34,7 +33,7 @@
       //loadNavbar: true,
       mergeNavbar: true,
       maxLevel: 4,
-      subMaxLevel: 4,
+      subMaxLevel: 4,//显示的目录层级
       ga: 'UA-106147152-1',
       search: {
         noData: {
@@ -60,8 +59,35 @@
         nextText: '下一章节',
         crossChapter: true,
         crossChapterText: true
-      }
-     
+      }/*,
+      // 折叠目录
+      plugins: [
+        function(hook, vm) {
+          hook.doneEach(function() {
+            document.querySelectorAll(".sidebar-nav > ul > li").forEach(
+                    function(node, index, nodelist) {
+                      var span = document.createElement("span");
+                      span.innerHTML = node.firstChild.data;
+                      span.style.cursor = "pointer";
+                      span.onclick = function(event) {
+                        var ul = event.target.nextElementSibling;
+                        if (ul.style.display === "none") {
+                          ul.style.display = "block";
+                        } else {
+                          ul.style.display = "none";
+                        }
+                      };
+                      node.firstChild.replaceWith(span);
+                      node.lastChild.style.display = "none";
+                    });
+            var active = document.querySelector(".sidebar-nav li.active");
+            if (active) {
+              active.parentElement.style.display = "block";
+            }
+          });
+        }
+      ]
+     */
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
@@ -75,7 +101,8 @@
   <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
   <script src="//unpkg.com/docsify-dark-mode@0.6.1/dist/index.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/emoji.js"></script>
-    <!--放大图片插件-->
+  <script src="//cdn.jsdelivr.net/npm/docsify-plugin-codefund/index.js"></script>
+  <!--放大图片插件-->
   <script src="//unpkg.com/docsify/lib/plugins/zoom-image.js"></script>
   <!--上一章、下一章节插件-->
   <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>

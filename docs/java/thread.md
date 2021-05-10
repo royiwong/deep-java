@@ -67,7 +67,7 @@ public class RunnableThreadTest implements Runnable
 线程的执行流程很简单，当执行代码start()时，就会执行对象中重写的void run();方法，该方法执行完成后，线程就消亡了。	
 ####  3、通过Callable和Future创建线程
 （1）创建Callable接口的实现类，并实现call()方法，该call()方法将作为线程执行体，并且有返回值。	
-```java
+``` java
 public interface Callable
 {
 　　V call() throws Exception;
@@ -159,3 +159,10 @@ J.U.C并发包，即java.util.concurrent包，是JDK的核心工具包，是JDK1
 《JAVA多线程设计模式》 结城浩  
 
 ##  juc-locks 锁框架
+
+
+##  多线程面试题
+https://zhuanlan.zhihu.com/p/26441926  
+
+https://zhuanlan.zhihu.com/p/340578459  
+https://www.cnblogs.com/mujingyu/p/7856388.html 
